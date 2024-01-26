@@ -16,20 +16,20 @@ ok so what did i actually do to dwm~
    - [swallow](https://dwm.suckless.org/patches/swallow/) runs GUI apps in the ST terminal.
 
 what do i need to run this? (neeeeeeeeeeeeeerd)
-    xlib
-    xorg
-    [st](https://st.suckless.org/) or [LST](https://github.com/Oliveoilollie/LST) or change the default terminal in the config.def.h
+    - xlib
+    - xorg
+    - [st](https://st.suckless.org/) or [LST](https://github.com/Oliveoilollie/LST) or change the default terminal in the config.def.h
 
 not needed to compile but i recommend anyway!
-    picom (or any standalone compositor for those alpha affects)
-    dwmblocks (i will have my own build uploaded once i am done)
-    xinit (so you can start it and have it launch applications)
-    nitrogen or feh (walpapers)
+    - picom (or any standalone compositor for those alpha affects)
+    - dwmblocks (i will have my own build uploaded once i am done)
+    - xinit (so you can start it and have it launch applications)
+    - nitrogen or feh (walpapers)
 
 how do i build it im a noobie
-    git clone https://github.com/Oliveoilollie/dwm.git
-    cd dwm
-    sudo make install clean
+    - git clone https://github.com/Oliveoilollie/dwm.git
+    - cd dwm
+    - sudo make install clean
 
 tip - delete config.h (not config.def.h) every time you compile so you dont mess stuff up!
 
