@@ -15,11 +15,6 @@ ok so what did i actually do to dwm.~
    - [status-cmd](https://dwm.suckless.org/patches/statuscmd/) makes status bar clickable with scripts and dwm blocks.
    - [swallow](https://dwm.suckless.org/patches/swallow/) runs GUI apps in the ST terminal.
 
-what do i need to run this? (neeeeeeeeeeeeeerd).~
-    - xlib
-    - xorg
-    - [st](https://st.suckless.org/) or [LST](https://github.com/Oliveoilollie/LST) or change the default terminal in the config.def.h
-
 how do i build it im a noobie.~
 ``` 
 git clone https://github.com/Oliveoilollie/dwm.git
