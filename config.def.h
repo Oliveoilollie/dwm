@@ -7,7 +7,7 @@ static const int swallowfloating    = 0;        /* 1 means swallow floating wind
 static const unsigned int gappih    = 20;       /* horiz inner gap between windows */
 static const unsigned int gappiv    = 10;       /* vert inner gap between windows */
 static const unsigned int gappoh    = 10;       /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov    = 30;       /* vert outer gap between windows and screen edge */
+static const unsigned int gappov    = 10;       /* vert outer gap between windows and screen edge */
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-static const char *defaulttagapps[] = { "floorp", "st", "pcmanfm", NULL, NULL, NULL, NULL, NULL, NULL };
+static const char *defaulttagapps[] = { "floorp", "st", "pcmanfm", "sh.cider.Cider", NULL, NULL, NULL, "discord", "keepassxc" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -131,6 +131,16 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+	{ MODKEY|ControlMask,           XK_y,      setlayout,      {.v = &layouts[3]} },
+	{ MODKEY|ControlMask,           XK_u,      setlayout,      {.v = &layouts[4]} },
+	{ MODKEY|ControlMask,           XK_i,      setlayout,      {.v = &layouts[5]} },
+	{ MODKEY|ControlMask,           XK_o,      setlayout,      {.v = &layouts[6]} },
+	{ MODKEY|ControlMask,           XK_p,      setlayout,      {.v = &layouts[7]} },
+	{ MODKEY|ControlMask,           XK_b,      setlayout,      {.v = &layouts[8]} },
+	{ MODKEY|ControlMask,           XK_n,      setlayout,      {.v = &layouts[9]} },
+	{ MODKEY|ControlMask,           XK_m,      setlayout,      {.v = &layouts[10]} },
+	{ MODKEY|ControlMask,           XK_comma,  setlayout,      {.v = &layouts[11]} },
+	{ MODKEY|ControlMask,           XK_period, setlayout,      {.v = &layouts[13]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
