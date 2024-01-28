@@ -271,7 +271,7 @@ static Client *termforwin(const Client *c);
 static pid_t winpid(Window w);
 
 /* variables */
-static const char broken[] = "This window has no name lol";
+static const char broken[] = "James Charles scared the windows name so no window name";
 static char stext[256];
 static int statusw;
 static int statussig;
@@ -2595,7 +2595,7 @@ xerrordummy(Display *dpy, XErrorEvent *ee)
 int
 xerrorstart(Display *dpy, XErrorEvent *ee)
 {
-	die("dwm: another window manager is already running");
+	die("dwm: another window manager is already running, Bocchi is literally you");
 	return -1;
 }
 
