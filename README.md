@@ -7,7 +7,7 @@ here are the keybindings ^^ youll know them when you see them [config.def.h](htt
 
 ok so what did i actually do to dwm.~
    - [alpha](https://dwm.suckless.org/patches/alpha/) adds some transparency to the panel.
-   - [vanity-gaps](https://dwm.suckless.org/patches/vanitygaps/) adds some gaps to the windows (i think it adds layouts as well??? we will see).
+   - [vanity-gaps](https://dwm.suckless.org/patches/vanitygaps/) adds some gaps to the windows also adds some pointless window layouts lol
    - [default-tags](https://dwm.suckless.org/patches/default_tag_apps/) makes a tag have its own shortcut for applications.   
    - [fadeinactive](https://dwm.suckless.org/patches/fadeinactive/) duh does what it says in the name.
    - [rotate-stack](https://dwm.suckless.org/patches/rotatestack/) makes moving windows a bit easier lol.
